@@ -1,6 +1,8 @@
 package com.codewithmosh;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Stack {
   private int[] items = new int[5];

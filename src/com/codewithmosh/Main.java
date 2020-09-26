@@ -6,9 +6,8 @@ import java.util.List;
 
 public class Main {
   public static void main(String[] args) {
-    var sentence = StringUtils.isPalindrome(null);
-    System.out.println("'" + sentence + "'");
-
+    var ret = StackUtils.isBracketsMatch("}{");
+    System.out.println(ret);
 
   }
 }

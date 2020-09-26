@@ -15,8 +15,10 @@ public class Expression {
     Stack<Character> stack = new Stack<>();
 
     for (char ch : input.toCharArray()) {
-      if (isLeftBracket(ch))
+      if (isLeftBracket(ch)) {
         stack.push(ch);
+        continue;
+      }
 
       if (isRightBracket(ch)) {
         if (stack.empty()) return false;
